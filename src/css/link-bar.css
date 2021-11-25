@@ -1,0 +1,30 @@
+.search-bar-style {
+  position: "relative";
+  border-radius: 20px;
+  background-color: rgb(13, 20, 135, 255);
+  opacity: 0.2;
+  margin-left: 0;
+  width: "100%";
+}
+
+.search-bar-style:hover {
+  opacity: 0.4;
+}
+
+.search-icon-wrapper {
+  padding: 0 3px;
+  height: "100%";
+  position: "absolute";
+  pointer-events: "none";
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+}
+
+.search-input-style {
+  color: "inherit";
+  padding: 1px 1px 1px 0;
+  width: "100%";
+  padding-left: 1em ;
+  width: "12ch";
+}
