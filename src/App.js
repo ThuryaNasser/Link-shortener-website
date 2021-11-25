@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import MainBar from './components/MainBar';
 import './css/App.css';
 
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="App-header">
         <h1 className="mb-5">
-        Link shortener website
+          Link shortener website
         </h1>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         {/* <p className="mt-5 ">paste you'r link here</p>
@@ -27,7 +27,7 @@ function App() {
         >
           Learn React
         </a> */}
-        <MainBar/>
+        <MainBar />
       </div>
       <div>
 
