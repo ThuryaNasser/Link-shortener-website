@@ -1,11 +1,14 @@
-import * as React from "react";
+import React from "react";
 import InputBase from "@mui/material/InputBase";
 import LinkIcon from "@mui/icons-material/Link";
 
 const LinkBar = (props) => {
+    const {
+        setLongUrl = () => { },
+    } = props
 
     const onChange = (event) => {
-        console.log(event.target.value);
+        setLongUrl(event.target.value);
     };
 
     return (
