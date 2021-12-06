@@ -1,32 +1,38 @@
 import React from 'react';
 import Button from '@mui/material/Button';
-import DeleteIcon from '@mui/icons-material/Delete';
 import SendIcon from '@mui/icons-material/Send';
 import Stack from '@mui/material/Stack';
 
 const ShortenerButton = (props) => {
-    const jenratenewurl = () => {
-      
-      }
+  const {
+    longUrl = '',
+    setShortUrl=()=>{},
+  } = props
+  const shortUrlService=()=> {
+    fetch('https://api-ssl.bitly.com/v4/shorten', {
+      method: 'POST',
+      headers: {
+        'Authorization': 'Bearer bafc1e3be3aa6cf1be314eb910e6baca622be716',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ "long_url": longUrl, "domain": "bit.ly" })
+    })
+      .then(response => response.json())
+      .then(data => {setShortUrl(data.link);})
+      .catch(e => setShortUrl(e));
+    }
+
     return (
-        <Stack direction="row"  className="shortener-button" spacing={2} >
-                <Button 
-                variant="contained" 
-                endIcon={<SendIcon />}
-                onClick={() => {
-                    alert('clicked');
-                  }}
-                >
-                    SHORT IT
-                </Button>
-                <Button 
-                variant="outlined"
-                 startIcon={<DeleteIcon />}
-                 disabled>
-                    COPY
-                </Button>
-        </Stack>
-    );
+    <Stack direction="row" className="shortener-button">
+      <Button
+        variant="contained"
+        endIcon={<SendIcon />}
+        onClick={shortUrlService}
+      >
+        SHORT IT
+      </Button>
+    </Stack>
+  );
 }
 
 
