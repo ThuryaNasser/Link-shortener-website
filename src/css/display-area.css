@@ -1,0 +1,18 @@
+.display-area {
+  justify-content: space-between;
+  display: flex;
+  align-items: baseline;
+}
+.short-link {
+  margin-bottom: 12px;
+  padding: 0 10px 0 10px;
+  background-color: #b69ee2 !important;
+  color: #fff !important;
+  font-size: 25px;
+  margin-left: 410px !important;
+}
+.copy-button {
+  background-color: #ff4e9c !important;
+  color: #fff !important;
+  margin-right: 50px !important;
+}
