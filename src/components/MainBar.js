@@ -23,10 +23,10 @@ const [shortUrl, setShortUrl] = useState('');
   }
   
   return (
-    <Box sx="box-style">
+    <Box className="box-style">
       <div className="main-bar-style">
         <Toolbar>
-          <Icons />
+          {window.innerWidth > 1390 ? <Icons />:''}
           <Typography
             variant="h6"
             noWrap

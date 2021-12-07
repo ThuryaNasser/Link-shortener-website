@@ -1,9 +1,5 @@
-.box-style {
-  flex-grow: 1;
-  width: 50%;
-}
-
 .main-bar-style {
+  padding: 10px 24px 0 24px;
   background-color: #e9d1ff;
   border-radius: 20px;
 }
