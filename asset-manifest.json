@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Link-shortener-website/static/css/main.dd27eecc.chunk.css",
+    "main.js": "/Link-shortener-website/static/js/main.4800ab7c.chunk.js",
+    "main.js.map": "/Link-shortener-website/static/js/main.4800ab7c.chunk.js.map",
+    "runtime-main.js": "/Link-shortener-website/static/js/runtime-main.1895df62.js",
+    "runtime-main.js.map": "/Link-shortener-website/static/js/runtime-main.1895df62.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/Link-shortener-website/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.b55a4a5d.chunk.js": "/Link-shortener-website/static/js/2.b55a4a5d.chunk.js",
+    "static/js/2.b55a4a5d.chunk.js.map": "/Link-shortener-website/static/js/2.b55a4a5d.chunk.js.map",
+    "index.html": "/Link-shortener-website/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/Link-shortener-website/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.dd27eecc.chunk.css.map": "/Link-shortener-website/static/css/main.dd27eecc.chunk.css.map",
+    "static/js/2.b55a4a5d.chunk.js.LICENSE.txt": "/Link-shortener-website/static/js/2.b55a4a5d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Link-shortener-website/static/media/LinkShortener.1bc5efa3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1895df62.js",
+    "static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.b55a4a5d.chunk.js",
+    "static/css/main.dd27eecc.chunk.css",
+    "static/js/main.4800ab7c.chunk.js"
+  ]
+}
