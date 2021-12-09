@@ -26,7 +26,7 @@ const [shortUrl, setShortUrl] = useState('');
     <Box className="box-style">
       <div className="main-bar-style">
         <Toolbar>
-          {window.innerWidth > 1390 ? <Icons />:''}
+          <Icons/>
           <Typography
             variant="h6"
             noWrap

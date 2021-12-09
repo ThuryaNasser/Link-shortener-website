@@ -16,3 +16,18 @@
   color: #fff !important;
   margin-right: 50px !important;
 }
+
+@media screen and (max-width: 1222px) {
+  .display-area.copy-button {
+    margin: 0;
+  }
+  .short-link {
+    margin-left: 310px !important;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .short-link {
+    margin-left: 210px !important;
+  }
+}

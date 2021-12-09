@@ -10,3 +10,32 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+@media screen and (max-width: 1222px) {
+  .App {
+    margin: 0 auto;
+    background-size: 150% 100%;
+    min-height: 110vh;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .App {
+    min-width: 110vh;
+  }
+}
+
+@media screen and (max-width: 1018px) {
+  .App {
+    width: 150%;
+    min-height: 170vh;
+    min-width: 120vh;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .App {
+    width: 160%;
+    min-height: 170vh;
+    min-width: 120vh;
+  }
+}

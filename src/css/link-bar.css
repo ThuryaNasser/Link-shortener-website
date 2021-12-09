@@ -26,3 +26,10 @@
 .shortener-button {
   margin: 13px;
 }
+
+@media screen and (max-width: 1222px) {
+  .link-bar-style {
+    width: 60%;
+    margin: auto;
+  }
+}

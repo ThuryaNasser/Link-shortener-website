@@ -3,3 +3,10 @@
   background-color: #e9d1ff;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 1222px) {
+  .main-bar-style {
+    width: 80%;
+    margin: auto;
+  }
+}
