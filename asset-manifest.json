@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Link-shortener-website/static/css/main.862bf0ff.chunk.css",
+    "main.css": "/Link-shortener-website/static/css/main.c79a3461.chunk.css",
     "main.js": "/Link-shortener-website/static/js/main.b4d5f5eb.chunk.js",
     "main.js.map": "/Link-shortener-website/static/js/main.b4d5f5eb.chunk.js.map",
     "runtime-main.js": "/Link-shortener-website/static/js/runtime-main.1895df62.js",
@@ -10,7 +10,7 @@
     "static/js/2.5efcce78.chunk.js.map": "/Link-shortener-website/static/js/2.5efcce78.chunk.js.map",
     "index.html": "/Link-shortener-website/index.html",
     "static/css/2.8c0e6b67.chunk.css.map": "/Link-shortener-website/static/css/2.8c0e6b67.chunk.css.map",
-    "static/css/main.862bf0ff.chunk.css.map": "/Link-shortener-website/static/css/main.862bf0ff.chunk.css.map",
+    "static/css/main.c79a3461.chunk.css.map": "/Link-shortener-website/static/css/main.c79a3461.chunk.css.map",
     "static/js/2.5efcce78.chunk.js.LICENSE.txt": "/Link-shortener-website/static/js/2.5efcce78.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Link-shortener-website/static/media/LinkShortener.1bc5efa3.png"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.1895df62.js",
     "static/css/2.8c0e6b67.chunk.css",
     "static/js/2.5efcce78.chunk.js",
-    "static/css/main.862bf0ff.chunk.css",
+    "static/css/main.c79a3461.chunk.css",
     "static/js/main.b4d5f5eb.chunk.js"
   ]
 }
