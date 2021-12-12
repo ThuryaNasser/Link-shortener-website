@@ -25,7 +25,7 @@ const [shortUrl, setShortUrl] = useState('');
   return (
     <Box className="box-style">
       <div className="main-bar-style">
-        <Toolbar>
+        <Toolbar className="toolbar">
           <Icons/>
           <Typography
             variant="h6"
@@ -36,6 +36,7 @@ const [shortUrl, setShortUrl] = useState('');
               mr: 5,
               ml: 3
             }}
+          className="typography"
           >
             URL
           </Typography>

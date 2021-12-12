@@ -32,8 +32,7 @@
     width: 60%;
     margin: auto;
   }
-  .css-1urasrk-MuiTypography-root,
-  .css-on2e5b {
+  .typography {
     margin-left: 0;
   }
 }
@@ -43,8 +42,7 @@
     width: 100%;
     margin: 10px;
   }
-  .css-1t29gy6-MuiToolbar-root,
-  .css-191lty2 {
+  .toolbar {
     justify-content: center;
   }
 }
