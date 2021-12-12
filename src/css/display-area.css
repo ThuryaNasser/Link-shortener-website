@@ -18,16 +18,20 @@
 }
 
 @media screen and (max-width: 1222px) {
-  .display-area.copy-button {
-    margin: 0;
-  }
   .short-link {
-    margin-left: 310px !important;
+    margin-left: 220px !important;
+    margin-right: 100px !important;
   }
 }
 
 @media screen and (max-width: 599px) {
+  .display-area {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    padding-bottom: 12px;
+    padding-left: 45px;
+  }
   .short-link {
-    margin-left: 210px !important;
+    margin-left: 50px !important;
   }
 }

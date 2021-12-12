@@ -3,7 +3,7 @@
   border-radius: 20px;
   background-color: rgb(13, 20, 135, 255);
   opacity: 0.2;
-  margin-left: 0;
+  margin: auto;
 }
 
 .link-bar-style:hover {
@@ -31,5 +31,18 @@
   .link-bar-style {
     width: 60%;
     margin: auto;
+  }
+  .css-1urasrk-MuiTypography-root {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .link-bar-style {
+    width: 100%;
+    margin: 10px;
+  }
+  .css-1t29gy6-MuiToolbar-root {
+    justify-content: center;
   }
 }
