@@ -21,7 +21,7 @@ const ShortenerButton = (props) => {
         endIcon={<ContentCutIcon />}
         onClick={shortUrlService}
       >
-        SHORT
+      Shorten
       </Button>
     </Stack>
   );
