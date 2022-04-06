@@ -1,8 +1,31 @@
 import React from "react";
-import InputBase from "@mui/material/InputBase";
+import { InputBase, Box } from "@mui/material";
 import LinkIcon from "@mui/icons-material/Link";
 
 const LinkBar = (props) => {
+    const linkBarBoxStyle = {
+        position: 'relative',
+        display: 'flex',
+        flexWrap: 'wrap',
+        borderRadius: '20px',
+        backgroundColor: 'rgb(13, 20, 135, 255)',
+        opacity: 0.2,
+        '&:hover': {
+            opacity: 0.4,
+        },
+    };
+    const linkIconStyle = {
+        padding: '8px 15px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+    };
+    const inputBaseStyled = {
+        color: 'inherit !important',
+        paddingLeft: ' 1em',
+        width: { sm: '45ch', md: '75ch', }
+    };
+
     const {
         setLongUrl = () => { },
     } = props
@@ -12,19 +35,18 @@ const LinkBar = (props) => {
     };
 
     return (
-        <div className="link-bar-style">
-            <div className="link-icon-wrapper">
+        <Box sx={{ ...linkBarBoxStyle }}>
+            <Box sx={{ ...linkIconStyle }}>
                 <LinkIcon />
                 <InputBase
-                    className="link-input-style"
+                    sx={{ ...inputBaseStyled }}
                     placeholder="Paste your link here "
-                    inputProps={{ "aria-label": "url", className: "link-input-style" }}
+                    inputProps={{ "aria-label": "url" }}
                     onChange={onChange}
                 />
-            </div>
-        </div>
-
+            </Box>
+        </Box >
     )
-}
+};
 
 export default LinkBar;

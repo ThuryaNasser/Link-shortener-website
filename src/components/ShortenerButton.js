@@ -15,12 +15,11 @@ const ShortenerButton = (props) => {
     }
 
     return (
-    <Stack direction="row" className="shortener-button">
+    <Stack direction="row" sx={{m: 2}}>
       <Button
         variant="contained"
         endIcon={<ContentCutIcon />}
-        onClick={shortUrlService}
-      >
+        onClick={shortUrlService}>
       Shorten
       </Button>
     </Stack>
